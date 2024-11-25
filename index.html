@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta description="Dynamic Resume Builder With Core HTML CSS . Hackathon 0 ">
+  <title>Dynamic Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Dynamic & Editable Resume Builder</h1>
+  <h2>Developed By: Zahida Raees</h2>
+  
+  <form id="resume-form">
+    <fieldset>
+      <legend>PERSONAL INFORMATION</legend>
+      <input type="text" id="username" name="User Name" placeholder="User Name" required><br><br>
+
+      <label for="profilepic" class="inputpic"><strong>Upload Passport Size Picture</strong></label>
+      <input type="file" id="profilepic" accept="image/*"><br><br>
+
+      <label for="fullname" class="inputname">Full Name:</label>
+      <input type="text" name="fullname" id="fullname" required /><br>
+
+      <label for="email" class="inputname">Email:</label>
+      <input type="email" name="email" id="email" required /><br>
+
+      <label for="phone" class="inputname">Contact No(Cell / Landline)#:</label>
+      <input type="text" name="phone" id="phone" required /><br>
+
+      <label for="address" class="inputname">Your Residential Address:</label>
+      <textarea name="address" id="address" required></textarea><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>SKILLS</legend>
+      <textarea name="skills" id="skills" required></textarea><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>EDUCATION</legend>
+      <label for="Qualification" class="inputEdu">Academic Qualification:</label>
+      <textarea name="Qualification" id="Qualification" required></textarea><br>
+
+      <label for="education" class="inputname">Professional Qualification:</label>
+      <textarea name="education" id="education" required></textarea><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>EXPERIENCE</legend>
+      <label for="Experience" class="inputExp">Work Experience:</label>
+      <textarea name="Experience" id="Experience" required></textarea><br><br>
+    </fieldset><br>
+
+    <button type="button" id="generate-btn">Generate/Edit Resume</button>
+  </form>
+
+  <!-- Resume Output on Screen -->
+  <div id="resumeOutput"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+body {
+  background-image: url(./image/bk02.jpg);
+  background-color: rgb(212, 249, 248);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 20px;
+}
+
+h1 {
+  font-family: "Paytone One", sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #222;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #e4f7fa;
+  padding: 20px;
+}
+
+fieldset {
+  text-align: center;
+  border: 2px solid #3498bd;
+  background-image: url("./image/bk01.jpg");
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  text-align: center;
+  color: #2c3e50;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #2c3e50;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #54707a;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+button {
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  background-color: rgb(111, 176, 194);
+  color: black;
+  border: none;
+  border-radius: 8%;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+  background-color: rgb(105, 175, 152);
+}
+
+input[type="file"] {
+  font-size: 16px;
+  padding: 4px;
+  width: 200px;
+  background-color: rgb(111, 176, 194);
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+#resumeOutput {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #3498bd;
+  border-radius: 8px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput .resume-container {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #54707a;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+#resumeOutput h2 {
+  color: #222;
+  text-align: center;
+}
+
+#resumeOutput img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
